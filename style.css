@@ -1,0 +1,18 @@
+/* comentario em css 
+seletor de elementos - linha 4 
+*/
+h1 { 
+    color: navy;
+}
+/* seletor de id */
+#xuxu { 
+    background-color: rgb(229, 229, 160); 
+}
+/* seletor de classe */
+.estiloso {
+    border-style: solid;
+}
+/* afeta apenas os p de classe centralizada */
+p.centralizado {
+    text-align: center;
+}
