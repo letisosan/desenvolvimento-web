@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms HTML</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div>
+        <h1>FORMULÁRIO HTML</h1>
+
+    </div>
+    <div>
+        <form action="#" method="post">
+            <label for="name"> NOME </label>
+            <input type="text" name="name" id="name" placeholder="digite o seu nome" required>
+            <br><br>
+            <label for="nascimento"> DATA DE NASCIMENTO </label>
+            <input type="date" name="nascimentos" id="nascimento">
+            <br><br>
+            <label for="email"> EMAIL </label>
+            <input type="email" name="email" id="email" placeholder="digite o seu email">
+            <br><br>
+            <label for="periodo"> PERIODO </label>
+            <input type="number" name="periodo" id="periodo" max="4" min="1">
+            <br><br>
+            <label for="senha"> SENHA </label>
+            <input type="password" name="senha" id="senha" placeholder="digite a sua senha">
+            <br><br>
+            <label for="nivel"> SATISFAÇÃO </label>
+            <input type="range" name="nivel" id="nivel">
+            <br><br>
+            <p> VOCE GOSTA DE ESTUDAR? </p>
+            <label for="estuda"> SIM </label>
+            <input type="radio" name="estuda">
+            <label for="naoestuda"> NAO </label>
+            <input type="radio" name="estuda">
+            <br><br>
+            <p> QUAIS SUAS MATERIAS FAVORITAS? </p>
+            <label for="alg"> algoritmo </label>
+            <input type="checkbox" name="alg" id="alg">
+            <label for="web"> desenvolvimento web </label>
+            <input type="checkbox" name="web" id="web">
+            <label for="bd"> banco de dados </label>
+            <input type="checkbox" name="bd" id="bd">
+
+            <br><br>
+            <input type="submit" value="salvar">
+
+        </form>
+    </div>
+</body>
+</html>
